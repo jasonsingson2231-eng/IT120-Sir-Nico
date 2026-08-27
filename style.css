@@ -1,0 +1,88 @@
+body {
+    position: relative;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #f2f5f9;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+    margin: 0;
+}
+
+.sun-icon {
+    display: none;
+}
+
+form {
+    width: 420px;
+    max-width: 90vw;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 12px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+    padding: 30px 25px;
+    box-sizing: border-box;
+}
+
+form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+label {
+    width: 100%;
+    max-width: 320px;
+    text-align: left;
+    margin-bottom: 2px;
+    line-height: 1.1;
+}
+
+input {
+    width: 100%;
+    max-width: 320px;
+    padding: 8px 10px;
+    box-sizing: border-box;
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 320px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #1d4ed8;
+    color: white;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.account-text {
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 14px;
+    color: #333;
+}
+
+.account-text a {
+    color: #1d4ed8;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.account-text a:hover {
+    text-decoration: underline;
+}
